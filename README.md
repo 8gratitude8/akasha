@@ -1,10 +1,10 @@
-<a href="https://novel.sh">
+<a href="https://akasha.sh">
   <img alt="Novel is a Notion-style WYSIWYG editor with AI-powered autocompletions." src="/app/opengraph-image.png">
-  <h1 align="center">Novel</h1>
+  <h1 align="center">akasha</h1>
 </a>
 
 <p align="center">
-  An open-source Notion-style WYSIWYG editor with AI-powered autocompletions. 
+  akasha: a node-based AI-powered research assistant 
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
   <a href="https://github.com/steven-tey/novel/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/steven-tey/novel?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
   </a>
-  <a href="https://github.com/steven-tey/novel"><img src="https://img.shields.io/github/stars/steven-tey/novel?style=social" alt="Novel.sh's GitHub repo"></a>
+  <a href="https://github.com/8gratitude/akasha"><img src="https://img.shields.io/github/stars/steven-tey/novel?style=social" alt="Novel.sh's GitHub repo"></a>
 </p>
 
 <p align="center">
@@ -27,23 +27,18 @@
 
 ## Introduction
 
-[Novel](https://novel.sh/) is a Notion-style WYSIWYG editor with AI-powered autocompletions.
+[akasha](https://akasha.sh/) is a Notion-style WYSIWYG editor with AI-powered autocompletions.
 
 Here's a quick 30-second demo:
 
-https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d803d63be5c
+https://github.com/8gratitude/akasha/assets/28986134/2099877f-4f2b-4b1c-8782-5d803d63be5c
 
 <br />
 
-## Deploy Your Own
-
-You can deploy your own version of Novel to Vercel with one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://stey.me/novel-deploy)
 
 ## Setting Up Locally
 
-To set up Novel locally, you'll need to clone the repository and set up the following environment variables:
+To set up akasha locally, you'll need to clone the repository and set up the following environment variables:
 
 - `OPENAI_API_KEY` – your OpenAI API key (you can get one [here](https://platform.openai.com/account/api-keys))
 - `BLOB_READ_WRITE_TOKEN` – your Vercel Blob read/write token (currently [still in beta](https://vercel.com/docs/storage/vercel-blob/quickstart#quickstart), but feel free to [sign up on this form](https://vercel.fyi/blob-beta) for access)
@@ -52,7 +47,7 @@ If you've deployed this to Vercel, you can also use [`vc env pull`](https://verc
 
 ## Tech Stack
 
-Novel is built on the following stack:
+akasha is built on the following stack:
 
 - [Next.js](https://nextjs.org/) – framework
 - [Tiptap](https://tiptap.dev/) – text editor
@@ -71,8 +66,5 @@ Here's how you can contribute:
 
 ## Author
 
-- Steven Tey ([@steventey](https://twitter.com/steventey))
+- Forked from Steven Tey ([@steventey]
 
-## License
-
-Licensed under the [MIT license](https://github.com/steven-tey/novel/blob/main/LICENSE.md).
