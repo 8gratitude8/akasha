@@ -1,5 +1,4 @@
 <a href="https://akasha.sh">
-  <img alt="akasha: a node-based AI-powered research assistant.
   <h1 align="center">akasha</h1>
 </a>
 
