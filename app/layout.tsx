@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title,
     description,
     card: "summary_large_image",
-    creator: "@steventey",
+    creator: "@8gratitude8",
   },
   metadataBase: new URL("https://akasha.sh"),
   themeColor: "#ffffff",
