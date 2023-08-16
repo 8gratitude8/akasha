@@ -1,5 +1,5 @@
 <a href="https://akasha.sh">
-  <img alt="Novel is a Notion-style WYSIWYG editor with AI-powered autocompletions." src="/app/opengraph-image.png">
+  <img alt="akasha: a node-based AI-powered research assistant." src="/app/opengraph-image.png">
   <h1 align="center">akasha</h1>
 </a>
 
