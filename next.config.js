@@ -4,12 +4,12 @@ const nextConfig = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/steven-tey/novel",
+        destination: "https://github.com/8gratitude8/akasha",
         permanent: true,
       },
       {
         source: "/feedback",
-        destination: "https://github.com/steven-tey/novel/issues",
+        destination: "https://github.com/8gratitude8/akasha/issues",
         permanent: true,
       },
       {
