@@ -4,7 +4,7 @@ test('editing the content should work', async ({ page }) => {
   await page.goto('http://localhost:3000/');
   await expect(page.getByText("Hello World!")).toHaveCount(0)
   
-  await page.getByRole('heading', { name: 'Introducing Novel' }).click();
+  await page.getByRole('heading', { name: 'Introducing akasha' }).click();
   await page.keyboard.press('Enter');
   await page.keyboard.type('Hello World!');
   
@@ -15,7 +15,7 @@ test('pressing `/` should open the slash menu', async ({ page }) => {
   await page.goto('http://localhost:3000/');
   await expect(page.locator("#slash-command")).toHaveCount(0)
   
-  await page.getByRole('heading', { name: 'Introducing Novel' }).click();
+  await page.getByRole('heading', { name: 'Introducing akasha' }).click();
   await page.keyboard.press('Enter');
   await page.keyboard.press('/');
   
@@ -26,9 +26,9 @@ test('highlighting text should open the bubble menu', async ({ page }) => {
   await page.goto('http://localhost:3000/');
   await expect(page.locator(".tippy-box")).toHaveCount(0)
   
-  await page.getByRole('heading', { name: 'Introducing Novel' }).click();
+  await page.getByRole('heading', { name: 'Introducing akasha' }).click();
   await page.waitForTimeout(1000);
-  await page.getByRole('heading', { name: 'Introducing Novel' }).dblclick();
+  await page.getByRole('heading', { name: 'Introducing akasha' }).dblclick();
 
   await page.waitForTimeout(3000);
   
