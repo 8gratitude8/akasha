@@ -6,9 +6,9 @@ import { ReactNode } from "react";
 import Providers from "./providers";
 
 const title =
-  "akasha – a node-based AI-powered research assistant";
+  "akasha – a node-based AI-powered research assistant.";
 const description =
-  "akasha: a node-based AI-powered research assistant. Built with Tiptap, OpenAI, and Vercel AI SDK.";
+  "akasha: a node-based AI-powered research assistant.";
 
 export const metadata: Metadata = {
   title,
