@@ -4,47 +4,15 @@ const DEFAULT_EDITOR_CONTENT = {
     {
       type: "heading",
       attrs: { level: 2 },
-      content: [{ type: "text", text: "Introducing akasha" }],
+      content: [{ type: "text", text: "introducing akasha 🔮" }],
     },
     {
       type: "paragraph",
       content: [
         {
           type: "text",
-          text: "akasha: a node-based AI-powered research assistant. Built with ",
+          text: "akasha: a node-based AI-powered research assistant. ",
         },
-        {
-          type: "text",
-          marks: [
-            {
-              type: "link",
-              attrs: {
-                href: "https://tiptap.dev/",
-                target: "_blank",
-                class:
-                  "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
-              },
-            },
-          ],
-          text: "Tiptap",
-        },
-        { type: "text", text: " and " },
-        {
-          type: "text",
-          marks: [
-            {
-              type: "link",
-              attrs: {
-                href: "https://sdk.vercel.ai/docs",
-                target: "_blank",
-                class:
-                  "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
-              },
-            },
-          ],
-          text: "Vercel AI SDK",
-        },
-        { type: "text", text: "." },
       ],
     },
     {
@@ -130,8 +98,7 @@ const DEFAULT_EDITOR_CONTENT = {
                       attrs: {
                         href: "https://twitter.com/8gratitude8",
                         target: "_blank",
-                        class:
-                          "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
+                        class: "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
                       },
                     },
                   ],
@@ -157,8 +124,7 @@ const DEFAULT_EDITOR_CONTENT = {
                       attrs: {
                         href: "https://github.com/8gratitude8/akasha",
                         target: "_blank",
-                        class:
-                          "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
+                        class: "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
                       },
                     },
                   ],
@@ -183,8 +149,7 @@ const DEFAULT_EDITOR_CONTENT = {
                       attrs: {
                         href: "https://vercel.com/templates/next.js/novel",
                         target: "_blank",
-                        class:
-                          "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
+                        class: "text-stone-400 underline underline-offset-[3px] hover:text-stone-600 transition-colors cursor-pointer",
                       },
                     },
                   ],
@@ -200,4 +165,4 @@ const DEFAULT_EDITOR_CONTENT = {
   ],
 };
 
-export default DEFAULT_EDITOR_CONTENT;
+export default DEFAULT_EDITOR_CONTENT;\
